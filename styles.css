@@ -1,0 +1,145 @@
+body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to bottom, #FFFFFF, #1677D5);
+        color: white;
+    }
+
+    header {
+        background: #0b2c4d;
+        padding: 40px 20px;
+        text-align: center;
+        border-bottom: 2px solid #1f5fa3;
+    }
+
+    header h1 {
+        font-size: 40px;
+        margin: 0;
+    }
+
+    header h2 {
+        margin: 10px 0 0;
+        font-weight: 200;
+        letter-spacing: 2px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        background: #103a63;
+        padding: 10px 0;
+        gap: 40px;
+        font-size: 18px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .section-title {
+        text-align: center;
+        padding: 40px 20px;
+        font-size: 32px;
+        background: #0f3459;
+    }
+
+    .image-row {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        padding: 40px 20px;
+    }
+
+    .image-card {
+        width: 400px;
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        font-weight: bold;
+        text-shadow: 0 0 10px black;
+    }
+
+    #ai-action {
+        background-image: url("placeholder-ai-action.jpg");
+    }
+
+    #ethics-future {
+        background-image: url("placeholder-ethics.jpg");
+    }
+
+    .content-box {
+        max-width: 900px;
+        margin: 0 auto;
+        background: white;
+        color: black;
+        padding: 30px;
+        border-radius: 12px;
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    .category-row {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        padding: 40px 20px;
+    }
+
+    .category-card {
+        width: 300px;
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 26px;
+        font-weight: bold;
+        text-shadow: 0 0 10px black;
+    }
+
+    #healthcare { background-image: url("placeholder-healthcare.jpg"); }
+    #education { background-image: url("placeholder-education.jpg"); }
+    #business { background-image: url("placeholder-business.jpg"); }
+    .footer {
+        background: #071826;
+        color: #bcd;
+        padding: 20px 0;
+        margin-top: 40px;
+    }
+
+    .footer-content {
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
+
+    .footer-left {
+        font-size: 14px;
+    }
+
+    .footer-links {
+        display: flex;
+        gap: 20px;
+        margin-top: 8px;
+    }
+
+    .footer-links a {
+        color: #bcd;
+        text-decoration: none;
+        font-size: 14px;
+    }
