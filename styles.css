@@ -24,11 +24,15 @@ body {
         color: white;
     }
 
-    header {
-        background-image: url(images/Header.png);
-        padding: 200px 20px;
-        border-bottom: 2px solid #1f5fa3;
-    }
+header {
+    background-image: url(images/Header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    aspect-ratio: 18 / 9;   
+    width: 100%;
+    border-bottom: 2px solid #1f5fa3;
+}
 
     nav {
         display: flex;
@@ -150,3 +154,23 @@ body {
         text-decoration: none;
         font-size: 14px;
     }
+    #ai-action{
+        background-image: url(images/madsen-action.png);
+    }
+    #ethics-future{
+        background-image: url(images/madsen-ethics.png);
+    }
+    #healthcare{
+        background-image: url(images/madsen-healthcare.png);
+    }
+    #education{
+        background-image: url(images/madsen-education.png);
+    }
+    #business{
+        background-image: url(images/madsen-business.png);
+    }
+.section-title{
+    background-image: url(images/madsen-title.png);
+    background-size: cover;
+    background-position: center;
+}
